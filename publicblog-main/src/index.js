@@ -19,7 +19,6 @@ setInterval(async () => {
 },60 * 1000)
 
 
-//axios.defaults.baseURL = 'http://localhost:3001/api';
 axios.defaults.baseURL = 'https://blog-w9pf.onrender.com/api';
     let userData =  JSON.parse(localStorage.getItem("userData"))
     let token
